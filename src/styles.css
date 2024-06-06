@@ -1,0 +1,25 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.calendar {
+    position: relative;
+    height: 100vh;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.event {
+    position: absolute;
+    border: 1px solid #000;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+}
